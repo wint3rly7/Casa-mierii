@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacte</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/index.html">
+    <link rel="shortcut icon" href="https://i.imgur.com/SCCJdOi.png" type="image/x-icon"> <!--Logo up-->
+    <!--Am preluat din Despre_noi modelul, am schimbat ceva, stilurile aceleasi tabelul este schimbat--><style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding:  0px;
+        text-align: center;
+        background-color: transparent;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: wheat;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      table, th, td {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  text-align: left;
+}
+
+th, td {
+  padding-left: 100px;
+}
+
+
+
+      </style>
+  </head>
+  <body>
+    <section class="wrapper1"><!--navbar-->
+      <div class="second"><nav class="nav">
+        <img src="https://i.imgur.com/rqdcV6W.png" align="left" width="250px" height="50px" class="fors"><!--logo left-->
+        <a href="../index.html" class="nav-link" required>Pagina principala</a>
+        <a href="../Despre_noi\index.html" class="nav-link" >Istoric</a>
+        <a href="../galerie\index.html" class="nav-link" >Galerie</a>
+        <a href="#" class="nav-link" >Contacte</a>
+      </nav></div>
+    </section>
+    <section class="wrapper2"><!--tabelul-->
+      <div class="bkc">
+        <table class="about-section" style="margin-left: 250px;margin-right: 250px;" align="center" style="font-style: normal;">
+          <tr>
+            <td colspan="2" class="about-section"><h2>Contacte</h2></td>
+          </tr>
+          <tr>
+            <td colspan="2">Google Maps
+            </td>
+          </tr>
+          <tr>
+            <th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3706.5815853135246!2d27.676174678255006!3d48.20523836476657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47334b517f5ed047%3A0xc1c4574fc06b7190!2sCasa%20Mierii%20s.%20%C5%A2aul!5e0!3m2!1sru!2s!4v1677259612503!5m2!1sru!2s" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></th>
+            <th>Denumirea: Pensiunea „Casa Mierii” / Țaul, Dondușeni 🐝
+              <br><br>Telefon: 079723379<br><br>Locație: s. Țaul, str. Parcului nr.1 ( acces dinspre magazinul “La Gurău”, în spatele CEHTA (fostul Colegiu Agricol).
+              <br><br>Proprietari: Ion și Iulia Guțu.
+              <button type="submit" class="button5" onclick="numarulda(this)">Am inteles!</button>
+            </th>
+          </tr>
+          <script>
+            var click  = 0;
+
+              function numarulda(el) {
+                click++;
+                el.innerHTML = "Ai inteles de: " + click + " ori";
+              } 
+          </script>
+          <tr>
+            <td colspan="2"><!--cata de vizita (my)-->
+              <section class="center">
+                <h2 style="text-align:center">Echipa de dezvoltare: </h2>
+                <div>
+                  <div>
+                    <div class="card">
+                      <img src="https://i.imgur.com/Gc242rw.jpeg" alt="Jane" style="width:100%">
+                      <div class="container">
+                        <h2>Melnic Alexandru</h2>
+                        <p class="title">Developer</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>abrahamwinterly@gmail.com</p>
+                        <p><button class="button"><a  class="a2" href="#">Contact</a></button></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </td>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </section>
+       <!--<section class="wrapper3"><div class="div2">
+      Crearea unui website poate fi benefică pentru orice afacere, organizație sau individ care dorește să fie prezent online. Există multe avantaje ale utilizării unui website, inclusiv:
+
+Accesibilitate globală: Un website poate fi accesat de oriunde în lume, 24 de ore pe zi, 7 zile pe săptămână. Acest lucru înseamnă că oricine poate găsi informații despre afacerea, produsele sau serviciile dvs. în orice moment, indiferent de locație sau fus orar.
+
+Creșterea vizibilității: Un website poate ajuta la creșterea vizibilității și notorietății afacerii dvs. pe internet. Prin optimizarea pentru motoarele de căutare și prin promovare pe social media, website-ul poate ajunge la un număr mare de potențiali clienți.
+
+Promovare eficientă și ieftină: Promovarea prin intermediul website-ului poate fi mai eficientă și mai ieftină decât alte metode tradiționale de publicitate, cum ar fi reclamele în presă sau TV. De exemplu, prin intermediul marketingului online, puteți să ajungeți la un număr mare de clienți cu un buget redus.
+
+Îmbunătățirea relațiilor cu clienții: Website-ul poate fi o modalitate excelentă de a interacționa cu clienții și de a-i menține informați cu privire la noutățile și ofertele companiei. De asemenea, puteți oferi suport și asistență clienților prin intermediul website-ului.
+
+Credibilitate și profesionalism: Un website bine proiectat și actualizat constant poate consolida încrederea clienților în afacerea dvs. și poate oferi o imagine profesională.
+
+În concluzie, crearea unui website poate fi o investiție inteligentă pentru orice afacere, organizație sau individ care dorește să fie prezent online. Un website poate ajuta la creșterea vizibilității și notorietății afacerii dvs., poate oferi o modalitate eficientă și ieftină de promovare și poate îmbunătăți relațiile cu clienții.
+    </div></section>-->
+    <script src="main.js"></script>
+  </body>
+</html>
